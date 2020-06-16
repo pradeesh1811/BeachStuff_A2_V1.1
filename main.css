@@ -1,0 +1,128 @@
+
+
+
+@font-face{
+
+	font-family:'Aclonica';
+	font-weight: bold;
+	font-style: normal;
+	src: url('Aclonica.ttf');
+
+}
+
+
+@font-face{
+
+	font-family:'JosefinSans';
+	font-weight: bold;
+	font-style: normal;
+	src: url('JosefinSans.ttf');
+
+}
+@font-face{
+
+	font-family:'JosefinSans';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('JosefinSans.ttf');
+
+}
+
+
+
+@font-face{
+
+	font-family:'Muli';
+	font-style: normal;
+	src: url('Muli.ttf');
+
+}
+
+
+h1{
+	font-family: 'Aclonica';
+	font-size:3.5rem;
+	margin-bottom: 1rem;
+}
+
+
+h2{
+	font-family: 'JosefinSans';
+	font-size:2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+h3{
+	font-family: 'JosefinSans';
+	font-weight: lighter;
+	font-size:2rem;
+	margin-bottom: 0.5rem;
+}
+
+
+p{
+	font-family: 'Muli';
+	font-size: 1rem;
+	padding-right: 60rem;
+}
+
+
+section{
+	display: block;
+
+}
+
+/*  NAV BAR  */
+
+.nav-logo{
+  grid-column: 2/span 3;
+  grid-row-start:1;
+	color:white;
+
+}
+
+.layout-nav-grid-content{
+  background-color:white;
+  border: 1px solid #45A2B7;
+  min-width:20rem;
+  height: 45rem;
+
+}
+
+.navmain{
+  flex:10 1 auto;
+}
+
+.nav-element-container-items{
+  display:inline-flex;
+  justify-content: space-evenly;
+
+/*  padding: 0 1rem;
+  font-family: 'Muli';
+  border: none;*/
+  font-family: 'Muli';
+	font-weight: lighter;
+
+	border: .09rem solid white;
+
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0); /* <-- set opacity to 0% to make transparent */
+  margin: 1rem;
+	margin-left: 0rem;
+
+}
+
+.nav-element-container-items:hover {
+  background-color: #FF7A00;
+  color: white;
+}
+
+.nav-element-container-items:focus {
+  background-color: #FF7A00;
+  color: white;
+}
