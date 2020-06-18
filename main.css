@@ -174,3 +174,32 @@ input[type=text]{
 }
 
 /*  contact section ends  */
+
+
+
+/* button styling */
+button {
+  font-family: 'Muli';
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #45A2B7;
+}
+
+
+button:hover {
+  background-color: #FF7A00;
+  color: white;
+}
+
+button:focus {
+  background-color: #FF7A00;
+  color: white;
+}
+
+
+/* button styling ends */
