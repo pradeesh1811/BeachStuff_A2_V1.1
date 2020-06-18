@@ -1,4 +1,7 @@
 
+body{
+  margin: 0;
+}
 .grid{
   display: grid;
 }
@@ -7,15 +10,49 @@
   display: flex;
 }
 
-.c12{
+/* .c12{
   grid-template-columns: repeat(12,auto);
   grid-column-gap: 2rem;
 }
 
-.r6{
+.c12{
+  grid-template-columns: repeat(12,auto);
+  grid-column-gap: 2rem;
+} */
+
+.super-grid{
+  /* grid-template-columns: 1fr 4fr;
+  display: grid; */
+  grid-template-columns: repeat(auto-fill, minmax(75px,1fr));
+  /* grid-template-rows: repeat(auto-fill, minmax(75px,1fr)); */
+  grid-gap:2rem;
+}
+/* .r6{
   grid-template-rows: repeat(12,auto);
   grid-row-gap: 2rem;
+} */
+
+.nav-logo-grid{
+  grid-column: 1/span 3;
+  grid-row-start:1;
+  color:white;
 }
+
+
+.layout-nav-grid{
+  background-color: #45A2B7;;
+  border: 1px solid #45A2B7;
+  /* min-width: 20%;
+  max-width:20%; */
+  min-height:100%;
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row:1 / span 3;
+  /* position: absolute; */
+  /* left:0rem;
+  top:0rem;  */
+}
+
 
 .grid-container{
   background-color: #DEDEDE;
@@ -25,21 +62,11 @@
 	flex-direction:row;
 }
 
-.layout-nav-grid{
-  background-color: #45A2B7;;
-  border: 1px solid #45A2B7;
-  min-width: 20%;
-  max-width:20%;
-  min-height:100%;
-  position: absolute;
-  left:0rem;
-  top:0rem;
-}
 
 .nav-element-container{
-  grid-column: 2/span 3;
+  /* grid-column: 2/span 3; */
   background-color:#45A2B7;
-  min-width:inherit%;
+  /* min-width:inherit%; */
   flex-direction: column;
 }
 
@@ -51,15 +78,53 @@
   min-width: 10rem;
 	max-width: 10rem;
   height: 10rem;
+  margin-left: 6rem;
+  margin-bottom: 0rem;
 }
 
 /* PRODUCT LISTING */
 
 .layout-productlisting-grid{
-grid-column: 10;
-grid-row: 12;
+grid-column: 3/ span 9;
+display:grid;
 }
 
 .container-product-listing{
   flex-direction: row;
+  flex-wrap: wrap;
+}
+#product-listing-module-header2{
+/*  display: grid;  <--Not working the proper way
+  grid-column: 10/ span 30;
+  grid-row: 7;*/
+
+}
+
+.layout-productlisting-grid-2ndrow{
+  grid-column: 3/ span 9;
+  display:grid;
+  /* margin-top:-14rem; */
+}
+
+/* ACCOUNT PAGE */
+
+.layout-account-grid{
+  background-color: #D1D1D1;
+  border: 1px solid #F06327;
+  margin:1.5rem;
+  min-width: 10rem;
+	max-width: 10rem;
+  height: 10rem;
+}
+
+.layout-productlisting-grid-cancelled{
+grid-column: 3/ span 7;
+display:grid;
+}
+
+/* REVIEWS PAGE */
+.contact-page-grid{
+  grid-column: 4/ span 9;
+  grid-row-start:1;
+
 }

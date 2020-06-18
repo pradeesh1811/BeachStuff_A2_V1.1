@@ -47,7 +47,7 @@
 
 h1{
 	font-family: 'Aclonica';
-	font-size:3.5rem;
+	font-size:2.5rem;
 	margin-bottom: 1rem;
 }
 
@@ -55,6 +55,8 @@ h2{
 	font-family: 'JosefinSans';
 	font-size:2.5rem;
 	margin-bottom: 0.5rem;
+	margin-left: 6rem;
+	margin-top:1rem;
 }
 
 h3{
@@ -85,11 +87,6 @@ section{
 
 /*  NAV BAR  */
 
-.nav-logo{
-  grid-column: 2/span 3;
-  grid-row-start:1;
-  color:white;
-}
 
 .layout-nav-grid-content{
   background-color:white;
@@ -137,6 +134,111 @@ section{
 /*  NAV BAR ENDS */
 
 
+.product-listing-module-button{
+	display:inline-flex;
+  justify-content: space-evenly;
+
+/*  padding: 0 1rem;
+  font-family: 'Muli';
+  border: none;*/
+  font-family: 'Muli';
+  font-weight: lighter;
+  border: .09rem solid black;
+  color: black;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
+
+	margin: 1rem;
+	margin-left: -9rem;
+	margin-top: 14rem;
+	margin-bottom: 1rem;
+	height:1rem;
+
+}
+
+.account-listing-module-button-first{
+	display:inline-flex;
+  justify-content: space-evenly;
+
+/*  padding: 0 1rem;
+  font-family: 'Muli';
+  border: none;*/
+  font-family: 'Muli';
+  font-weight: lighter;
+  border: .09rem solid black;
+  color: black;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
+  /* margin: 1rem; */
+	margin-left: 3rem;
+	/* margin-right: 5rem; */
+margin-top: 0rem;
+margin-bottom: 13rem;
+}
+
+.account-listing-module-button-other{
+	display:inline-flex;
+  justify-content: space-evenly;
+
+/*  padding: 0 1rem;
+  font-family: 'Muli';
+  border: none;*/
+  font-family: 'Muli';
+  font-weight: lighter;
+  border: .09rem solid black;
+  color: black;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
+  /* margin: 1rem; */
+	margin-left: 6rem;
+	/* margin-right: 5rem; */
+margin-top: 0rem;
+margin-bottom: 13rem;
+}
+
+/* PRODUCT LISTING BEGINS */
+.filtration-elements-items{
+	display:inline-flex;
+  justify-content: space-evenly;
+
+/*  padding: 0 1rem;
+  font-family: 'Muli';
+  border: none;*/
+  font-family: 'Muli';
+  font-weight: lighter;
+  border: .09rem solid black;
+  color: black;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+/* <-- set opacity to 0% to make transparent */
+  margin: 1rem;
+
+	margin-left: 6rem;
+height: 1rem;
+margin-right: -4rem;
+}
+
+.button:hover {
+  background-color: #FF7A00;
+  color: white;
+}
+
+.button:focus {
+  background-color: #FF7A00;
+  color: white;
+}
+
+
+/* PRODUCT LISTING ENDS */
+
 
 
 
@@ -174,3 +276,22 @@ input[type=text]{
 }
 
 /*  contact section ends  */
+
+/* REVIEWS SECTION */
+
+.submit-button{
+	display:inline-flex;
+  justify-content: space-evenly;
+
+/*  padding: 0 1rem;
+  font-family: 'Muli';
+  border: none;*/
+  font-family: 'Muli';
+  font-weight: lighter;
+  border: .09rem solid black;
+  color: black;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
+}
