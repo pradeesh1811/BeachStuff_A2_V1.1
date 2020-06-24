@@ -163,6 +163,10 @@ header{
   margin:30px;
 }
 
+.item-name{
+  text-align: center;
+}
+
 .img{
   background-color: #FDEC94;
   border:solid;
@@ -171,11 +175,12 @@ header{
   height: auto;
 }
 
+
 .rent-button 
 {
 
   text-align: center;
-  margin-top:0.3rem;
+ 
   
 
 }
