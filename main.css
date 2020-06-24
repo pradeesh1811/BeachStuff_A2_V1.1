@@ -122,6 +122,7 @@ header{
   color: white;
 }
 
+
 /*  NAV BAR ENDS */
 
 
@@ -192,6 +193,7 @@ header{
   border-width:0.01rem;
   border-radius:0.5rem;
 background-color: #45A2B7
+
 }
 
 .rent-button a{
@@ -286,7 +288,9 @@ button {
   color: white;
   border-radius:0.5rem;
   border-width:0.01rem;
-  padding: 0.5rem;
+  padding: 0.4rem;
+  padding-left:0.8rem;
+  padding-right:1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -299,12 +303,83 @@ button {
 button:hover {
   background-color: #FF7A00;
   color: white;
+  cursor: pointer;
 }
 
 button:focus {
   background-color: #FF7A00;
   color: white;
 }
+ 
+
+
+/*filter page*/
+
+ .filter-buttons-container-1{
+
+display:inline-flex;
+  flex-flow: wrap;
+   margin-bottom:3rem;
+   justify-content: center;
+}
+.filter-buttons-container-2{
+display:inline-flex;
+  flex-flow: wrap;
+  
+   margin-bottom:3rem;
+   justify-content: center;
+}
+
+
+ .filter-button a{
+  text-decoration: none;
+  color: white;
+  border-style:solid;
+  border-width:0.01rem;
+  border-radius:0.5rem;
+  border-color: black;
+  background-color: #45A2B7;
+margin-bottom:3rem;
+}
+
+.filter-button a{
+  padding:0.4rem;
+  margin-left:3rem;
+  
+  }
+
+.filter-button a:hover{
+  background-color: #FF7A00;
+  color: white;
+  cursor:pointer;
+}
+
+
+
+
+.filtered-product-container{
+display:flex;
+  flex-wrap: wrap;
+
+}
+
+
+.filtered-product-container{
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom:5em;
+  justify-content: space-around;
+
+}
+
+.filtered-product-container{
+
+  margin-bottom:50px;
+  margin:30px;
+}
+
+
+/*filter page*/
 
 
 
@@ -313,13 +388,9 @@ button:focus {
 
 
 
-/*contact page ends*/
 
 
-
-
-
-@media (max-width: 500px) {
+@media (max-width: 300px) {
   .parent-container .header  .product-container{
     display: block;
   }
