@@ -70,7 +70,7 @@ h3{
 }
 
 
-li,a,p{
+li, a, p{
 	font-family: 'Muli';
 	font-size: 1rem;
 	
@@ -129,14 +129,14 @@ header{
 
 .parent-container{
 
-  margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
 }
 
 .parent-container{
 
-  padding:4em;
+  padding:1em;
   padding-top:2em;
 }
 
@@ -150,8 +150,8 @@ header{
 
 .product-container{
 
-  margin-left:50px;
-  margin-right:50px;
+  margin-left:20px;
+  margin-right:20px;
   margin-bottom:5em;
   justify-content: space-around;
 }
@@ -201,6 +201,42 @@ background-color: #45A2B7
 
 
 
+
+/*aboutpage*/
+
+.about-page{
+
+ margin-left: auto;
+ margin-right: auto;
+ 
+padding-top:5rem;
+
+padding-bottom:5rem;
+}
+
+.about-content{
+
+
+display: flex;
+flex-flow: row wrap;
+margin-left:4rem;
+
+
+}
+
+.about-img{
+padding-top:2rem;
+display: block;   
+margin-right:4rem;
+}
+
+
+
+
+
+
+
+/*about page ends */
 
 
 @media (max-width: 500px) {
