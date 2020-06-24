@@ -93,6 +93,7 @@ header{
 
 /*  NAV BAR  */
 
+
 .nav-container li {
 
  list-style: none; 
@@ -215,13 +216,9 @@ padding-bottom:5rem;
 }
 
 .about-content{
-
-
 display: flex;
 flex-flow: row wrap;
 margin-left:4rem;
-
-
 }
 
 .about-img{
@@ -229,14 +226,92 @@ padding-top:2rem;
 display: block;   
 margin-right:4rem;
 }
-
-
-
-
-
-
-
 /*about page ends */
+
+
+
+
+/*contact page starts*/
+
+.contact-page{
+background-color: #F1F1F1;
+   display:block;
+
+text-align:center;
+}
+
+.contact-info{
+
+   background-color: #F1F1F1;
+padding:1rem;
+
+}
+
+
+label{
+    font-family: 'Muli';
+}
+
+
+
+label[for=contact-name]{
+    font-family: 'Muli';
+    margin-right: 1.2rem;
+}
+
+label[for=contact-phone]{
+    font-family: 'Muli';
+    margin-right: 1.2rem;
+
+}
+
+
+input[type=text1]{
+   
+
+}
+
+input[type=text]{
+    padding-bottom:2rem;
+}
+
+button {
+  font-family: 'Muli';
+  border: solid;
+  color: white;
+  border-radius:0.5rem;
+  border-width:0.01rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #45A2B7;
+
+}
+
+
+button:hover {
+  background-color: #FF7A00;
+  color: white;
+}
+
+button:focus {
+  background-color: #FF7A00;
+  color: white;
+}
+
+
+
+
+
+
+
+
+/*contact page ends*/
+
+
+
 
 
 @media (max-width: 500px) {
