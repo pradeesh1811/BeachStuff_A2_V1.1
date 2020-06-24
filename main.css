@@ -134,13 +134,11 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
+    padding:1em;
+    padding-top:2em;
 }
 
-.parent-container{
 
-  padding:1em;
-  padding-top:2em;
-}
 
 
 
@@ -152,8 +150,8 @@ header{
 
 .product-container{
 
-  margin-left:20px;
-  margin-right:20px;
+  /*margin-left:20px;*/
+ /* margin-right:20px;*/
   margin-bottom:5em;
   justify-content: space-around;
 }
@@ -384,7 +382,67 @@ display:flex;
 
 
 
+/*product description*/
 
+
+.product-description-container{
+    display: flex;
+    flex-flow: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding:1em;
+    
+}
+
+
+.product-description-content{
+
+  margin-left:2rem;
+  margin-right:2rem;
+  margin-top:4rem;
+  
+
+
+}
+.product-description-image{
+width:40rem;
+height:16rem;
+}
+
+.product-description-text{
+
+ 
+}
+
+.rental-interaction-content{
+  margin-top:1rem;
+  margin-left:2rem;
+}
+
+/*product description*/
+
+
+
+
+
+/*payment page*/
+.payment-page{
+  margin-top: 4rem;
+  justify-content:space-between;
+
+
+}
+
+
+
+/*payment page*/
+
+
+.thankyou-cotent{
+  margin-top:5rem;
+  text-align:center;
+}
 
 
 
@@ -393,5 +451,20 @@ display:flex;
 @media (max-width: 300px) {
   .parent-container .header  .product-container{
     display: block;
+  }
+}
+
+@media (max-width: 375px) {
+  .product-description-image{
+    width: 15rem;
+     height: 5rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .product-description-image{
+    width: 15rem;
+     height: 5rem;
+    
   }
 }
