@@ -1,4 +1,6 @@
-
+*,  *::after, *::before{
+box-sizing: border-box;
+}
 
 /* Fonts loaded*/
 @font-face{
@@ -28,7 +30,9 @@
 
 }
 
-
+body{
+  margin:0;
+}
 
 @font-face{
 
@@ -47,16 +51,15 @@
 
 h1{
 	font-family: 'Aclonica';
-	font-size:2.5rem;
-	margin-bottom: 1rem;
+	font-size:3.5rem;
+  color:white;
+	
 }
 
 h2{
 	font-family: 'JosefinSans';
 	font-size:2.5rem;
 	margin-bottom: 0.5rem;
-	margin-left: 6rem;
-	margin-top:1rem;
 }
 
 h3{
@@ -67,18 +70,21 @@ h3{
 }
 
 
-p{
+li,a,p{
 	font-family: 'Muli';
 	font-size: 1rem;
-	padding-right: 60rem;
-}
-
-section{
-	display: block;
+	
 }
 
 /* Fonts assigned to text elements ends*/
 
+
+header{
+  display:inline-block;
+  padding:0.5rem 8.9%;
+  font-size:1.5rem;
+  background-color:#45A2B7; 
+}
 
 
 
@@ -87,211 +93,118 @@ section{
 
 /*  NAV BAR  */
 
+.nav-container li {
 
-.layout-nav-grid-content{
-  background-color:white;
-  border: 1px solid #45A2B7;
-  min-width:20rem;
-  height: 45rem;
-
+ list-style: none; 
+ display: inline-block;
+ padding: 0.5rem 0.5rem; 
+ padding-top: 0.5rem;
+ border-radius: 0.5rem;
+ margin-bottom: 1rem;
+ margin-top: 2.5rem;
 }
 
-.navmain{
-  flex:10 1 auto;
-}
-
-.nav-element-container-items{
-  display:inline-flex;
-  justify-content: space-evenly;
-
-/*  padding: 0 1rem;
-  font-family: 'Muli';
-  border: none;*/
-  font-family: 'Muli';
-  font-weight: lighter;
-  border: .09rem solid white;
-  color: white;
-  padding: 0.5rem;
-  text-align: center;
+.nav-container li {
+   
+  border-style:solid;
+  border-width: 0.05rem;
   text-decoration: none;
-  font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0); /* <-- set opacity to 0% to make transparent */
-  margin: 1rem;
-	margin-left: 0rem;
+  border-color: white;
 }
+.nav-container li a {
+  color:white;
+    text-decoration: none;
 
-.nav-element-container-items:hover {
+}
+.nav-container li:hover{
   background-color: #FF7A00;
   color: white;
 }
-
-.nav-element-container-items:focus {
-  background-color: #FF7A00;
-  color: white;
-}
-
 
 /*  NAV BAR ENDS */
 
 
-.product-listing-module-button{
-	display:inline-flex;
-  justify-content: space-evenly;
 
-/*  padding: 0 1rem;
-  font-family: 'Muli';
-  border: none;*/
-  font-family: 'Muli';
-  font-weight: lighter;
-  border: .09rem solid black;
-  color: black;
-  padding: 0.5rem;
+
+
+.parent-container{
+
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.parent-container{
+
+  padding:4em;
+  padding-top:2em;
+}
+
+
+
+.product-container{
+
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.product-container{
+
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:5em;
+  justify-content: space-around;
+}
+
+.product-item{
+
+  margin-bottom:50px;
+  margin:30px;
+}
+
+.img{
+  background-color: #FDEC94;
+  border:solid;
+  border-width:0.05rem;
+  width:100%;
+  height: auto;
+}
+
+.rent-button 
+{
+
   text-align: center;
-  text-decoration: none;
-  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
-
-	margin: 1rem;
-	margin-left: -9rem;
-	margin-top: 14rem;
-	margin-bottom: 1rem;
-	height:1rem;
+  margin-top:0.3rem;
+  
 
 }
 
-.account-listing-module-button-first{
-	display:inline-flex;
-  justify-content: space-evenly;
-
-/*  padding: 0 1rem;
-  font-family: 'Muli';
-  border: none;*/
-  font-family: 'Muli';
-  font-weight: lighter;
-  border: .09rem solid black;
-  color: black;
-  padding: 0.5rem;
-  text-align: center;
+.rent-button a{
   text-decoration: none;
-  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
-  /* margin: 1rem; */
-	margin-left: 3rem;
-	/* margin-right: 5rem; */
-margin-top: 0rem;
-margin-bottom: 13rem;
+  color: white;
+  border-style:solid;
+  border-width:0.01rem;
+  border-radius:0.5rem;
+background-color: #45A2B7
 }
 
-.account-listing-module-button-other{
-	display:inline-flex;
-  justify-content: space-evenly;
+.rent-button a{
+  padding:0.3rem 0.3rem 0.3rem;
+  }
 
-/*  padding: 0 1rem;
-  font-family: 'Muli';
-  border: none;*/
-  font-family: 'Muli';
-  font-weight: lighter;
-  border: .09rem solid black;
-  color: black;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
-  /* margin: 1rem; */
-	margin-left: 6rem;
-	/* margin-right: 5rem; */
-margin-top: 0rem;
-margin-bottom: 13rem;
-}
-
-/* PRODUCT LISTING BEGINS */
-.filtration-elements-items{
-	display:inline-flex;
-  justify-content: space-evenly;
-
-/*  padding: 0 1rem;
-  font-family: 'Muli';
-  border: none;*/
-  font-family: 'Muli';
-  font-weight: lighter;
-  border: .09rem solid black;
-  color: black;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1rem;
-/* <-- set opacity to 0% to make transparent */
-  margin: 1rem;
-
-	margin-left: 6rem;
-height: 1rem;
-margin-right: -4rem;
-}
-
-.button:hover {
+.rent-button a:hover{
   background-color: #FF7A00;
   color: white;
-}
-
-.button:focus {
-  background-color: #FF7A00;
-  color: white;
+  cursor:pointer;
 }
 
 
-/* PRODUCT LISTING ENDS */
 
 
 
 
-
-
-/*  contact section  */
-
-label{
-	font-family: 'Muli';
-}
-
-.contact-page{
-	grid-column: 8/span 4;
-	grid-row-start:7;
-	color:black;
-}
-
-label[for=contact_name]{
-	font-family: 'Muli';
-	margin-right: 1.3rem;
-}
-
-label[for=contact_phone]{
-	font-family: 'Muli';
-	margin-right: 1.2rem;
-}
-
-
-input[type=text1]{
-	padding: 0.5rem 1rem;
-}
-
-input[type=text]{
-	padding: 2rem 6.25rem;
-}
-
-/*  contact section ends  */
-
-/* REVIEWS SECTION */
-
-.submit-button{
-	display:inline-flex;
-  justify-content: space-evenly;
-
-/*  padding: 0 1rem;
-  font-family: 'Muli';
-  border: none;*/
-  font-family: 'Muli';
-  font-weight: lighter;
-  border: .09rem solid black;
-  color: black;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1rem;/* <-- set opacity to 0% to make transparent */
+@media (max-width: 500px) {
+  .parent-container .header  .product-container{
+    display: block;
+  }
 }
