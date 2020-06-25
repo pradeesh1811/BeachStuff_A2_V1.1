@@ -133,7 +133,7 @@ header{
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding:1em;
     padding-top:2em;
 }
@@ -152,7 +152,7 @@ header{
 
   /*margin-left:20px;*/
  /* margin-right:20px;*/
-  margin-bottom:5em;
+  margin-bottom:2rem;
   justify-content: space-around;
 }
 
@@ -190,7 +190,7 @@ header{
   border-style:solid;
   border-width:0.01rem;
   border-radius:0.5rem;
-background-color: #45A2B7
+background-color: #45A2B7;
 
 }
 
@@ -215,7 +215,7 @@ background-color: #45A2B7
  margin-left: auto;
  margin-right: auto;
  
-padding-top:5rem;
+padding-top:1rem;
 
 padding-bottom:5rem;
 }
@@ -224,12 +224,14 @@ padding-bottom:5rem;
 display: flex;
 flex-flow: row wrap;
 margin-left:4rem;
+margin-right:2rem;
 }
 
-.about-img{
-padding-top:2rem;
-display: block;   
-margin-right:4rem;
+.about-image{
+  margin-top:2rem;
+  margin-right:2rem;
+width:42em;
+height:27rem;
 }
 /*about page ends */
 
@@ -358,7 +360,7 @@ display:inline-flex;
 
 
 .filtered-product-container{
-display:flex;
+  display:flex;
   flex-wrap: wrap;
 
 }
@@ -412,10 +414,6 @@ width:40rem;
 height:16rem;
 }
 
-.product-description-text{
-
- 
-}
 
 .rental-interaction-content{
   margin-top:1rem;
@@ -448,6 +446,107 @@ height:16rem;
 
 
 
+.myaccount-titles-container{
+
+  display:flex;
+  flex-flow:wrap;
+  /*margin-bottom: 2rem;*/
+}
+
+.myrentals-title{
+   margin-bottom:2rem;
+}
+
+.myrentals-title a{
+  font-size:1.4rem;
+  font-family: 'Muli';
+  text-decoration: none;
+  margin-left:2rem;
+  margin-bottom:1rem;
+  color:white;
+  background-color:#45A2B7;
+  padding:.5rem;
+  
+}
+.myrentals-title a:hover{
+  background-color:#FF7A00;
+}
+
+.myreviews-title{
+   margin-bottom:4rem;
+}
+
+.myreviews-title a{
+  font-size:1.4rem;
+  font-family: 'Muli';
+  text-decoration: none;
+  margin-left:2rem;
+  color:white;
+  background-color:#45A2B7;
+  padding:.5rem;
+  
+}
+.myreviews-title a:hover{
+  background-color:#FF7A00;
+}
+
+
+.review-form-content{
+  padding-top:2rem;
+  text-align:center;
+  padding:1.5rem;
+
+}
+
+
+
+
+
+
+
+
+/*cancel product page*/
+.cancel-product-container{
+  margin-left: 2rem;
+}
+
+.cancel-product-container{
+
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.cancel-product-container{
+
+  /*margin-left:20px;*/
+ /* margin-right:20px;*/
+  margin-bottom:2rem;
+
+}
+
+.cancel-item-name{
+  text-align: center;
+}
+
+.cancel-message {
+  margin-left:2rem;
+}
+
+.cancel-message h3 {
+font-size:1.5rem;
+}
+
+/*cancel product page*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -473,3 +572,22 @@ height:16rem;
     
   }
 }
+
+
+@media (max-width: 733px) {
+  .about-image{
+    width: 24rem;
+     height: 20rem;
+    
+  }
+}
+
+@media (max-width: 451px) {
+  .about-image{
+    width: 14rem;
+     height: 10rem;
+    
+  }
+}
+
+
