@@ -316,16 +316,16 @@ button:focus {
  .filter-buttons-container-1{
 
 display:inline-flex;
-  flex-flow: wrap;
+  flex-flow: flex;
    margin-bottom:3rem;
-   justify-content: center;
+   
 }
 .filter-buttons-container-2{
-display:inline-flex;
+  display:inline-flex;
   flex-flow: wrap;
   
    margin-bottom:3rem;
-   justify-content: center;
+  
 }
 
 
@@ -337,12 +337,14 @@ display:inline-flex;
   border-radius:0.5rem;
   border-color: black;
   background-color: #45A2B7;
-margin-bottom:3rem;
+  margin-bottom:3rem; 
+   padding-bottom:1rem;
+
 }
 
 .filter-button a{
   padding:0.4rem;
-  margin-left:3rem;
+  margin-left:2rem;
   
   }
 
@@ -433,16 +435,19 @@ height:16rem;
 
 
 }
-
-
-
 /*payment page*/
 
 
+/*thankyoupage*/
 .thankyou-cotent{
   margin-top:5rem;
   text-align:center;
 }
+/*thankyoupage*/
+
+
+
+
 
 
 
