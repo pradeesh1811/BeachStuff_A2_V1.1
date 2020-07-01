@@ -166,12 +166,46 @@ header{
   text-align: center;
 }
 
+
+.original-price{
+
+
+  text-decoration: line-through;
+}
+
+
+.sale-price{
+
+  color:red;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
 .img{
-  background-color: #FDEC94;
+  /*background-color: #FDEC94;*/
   border:solid;
   border-width:0.05rem;
   width:100%;
   height: auto;
+}
+.sale-tag{
+  position:absolute;
+  background-color:red;
+  color:white;
+  padding:0.5rem 0.5rem;
+
+}
+.new-tag{
+  position:absolute;
+  background-color:green;
+  color:white;
+  padding:0.5rem 0.5rem;
+
 }
 
 
