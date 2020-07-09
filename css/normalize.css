@@ -152,6 +152,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+
 }
 
 /**
@@ -288,6 +289,8 @@ input { /* 1 */
 button,
 select { /* 1 */
   text-transform: none;
+  border-style:solid;
+  border-color:#45A2B7;
 }
 
 /**

@@ -18,64 +18,97 @@
 
 <header>
 
-
-  <h1> Beach Stuff</h1>
+<div class="nav-grouping">
+<h1><a href="index.html">Beach Stuff </a></h1>
 
   <nav>
   <ul class="nav-container">
-  
+
   <li><a href="index.html" > Home</a> </li>
   <li><a href="about.html" > About</a> </li>
   <li><a href="equipments.html" >Equipments</a> </li>
   <li><a href="contact.html" > Contact</a> </li>
-  <li><a href="myaccount.html"> My Account</a> </li>    
+  <li><a href="myaccount.html"> My Account</a> </li>
 
 
   </ul>
   </nav>
-
+</div>
 
 </header>
 
-
+<main>
 <div class="product-description-container">
+      <!-- Product images Container-->
+    <div class="image-and-text">
+        <div class="slideshow-container">
 
+          <div class="product-description-content">
+            <div class="new-tag"> NEW </div>
+              <!-- Product images -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img class="product-image" src="img/flipflops.webp">
+            </div>
 
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img class="product-image"  src="img/flipflop2.webp">
+            </div>
 
-<div class="product-description-content">
-  
-  <img class="product-description-image2" src="img/flipflops.png" alt="surfboarddetail">
-  
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img class="product-image"  src="img/flipflop3.webp">
+            </div>
 
-  <div class=" product-desciption-text">
-  <h3> Reebok Flip-Flops (White only)</h3>
-  
-  <p>Providing all-day comfort for warm-weather excursions, the Super Coil 2.0 <br>flip-flop combines a plush footbed made from quick-drying material <br>with a molded strap that contours to your foot.</p>
-  </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-</div>
+          </div>
 
+        </div>
 
+          <div class="product-desciption-text">
+            <h2> Reebok Flip-Flops (White only)</h2>
+            <p class="product-description">Providing all-day comfort for warm-weather excursions, the Super Coil 2.0 flip-flop combines a plush footbed made from quick-drying material with a molded strap that contours to your foot.</p>
+          </div>
 
-<div class="rental-interaction-content">
-
-<h3> Rental Options</h3>
- <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_checkbox--> 
-<form action="paymentpage.html">
-  <input type="checkbox" id="option1" name="option1" value="option1">
-  <label for="option1"> 1 Hour - $3.00</label><br>
-  <input type="checkbox" id="option2" name="option2" value="option2">
-  <label for="option2"> 3 Hour - $5.00</label><br>
-  <input type="checkbox" id="option3" name="option3" value="option3">
-  <label for="option3"> 6 Hour - $7.00</label><br><br>
-  <div class="button">
-      <button ref= "paymentpage.html" >Submit </button>
       </div>
-</form>
+          <div class="rental-interaction-content">
+            <h3> Rental Options</h3>
+             <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_checkbox-->
+            <form action="paymentpage.html">
+              <input type="checkbox" id="option1" name="option1" value="option1">
+              <label for="option1"> 1 Hour - $3.00</label><br>
+              <input type="checkbox" id="option2" name="option2" value="option2">
+              <label for="option2"> 3 Hour - $5.00</label><br>
+              <input type="checkbox" id="option3" name="option3" value="option3">
+              <label for="option3"> 6 Hour - $7.00</label><br><br>
+              <div class="button">
+                  <button ref= "paymentpage.html" >Submit </button>
+                  </div>
+            </form>
+          </div>
+</div>
 
+<section class="reviews">
+  <div class="reviews-content">
+    <h2 id="review-title"> Reviews </h2>
 
+    <h3> Emily Woo </h3>
+    <p> I love these things, so unbelievably comfortable. Its like walking on a fluffy cloud, just phenonemal. The best part is the rates here are so affordable, competitors are easily three to four times more expensive, with half the quality. Honestly, some of the best flip-flops I have ever worn.</p>
 
+    <div class="line-break-review"></div>
+
+    <h3> Bob Dole </h3>
+    <p> So I got these for while I was on vacation as I forgot my flip-flops back in Australia and I am so glad that I did, because WOW! These are the comfiest things I have ever worn, and can you believe they are this cheap? My wife tried them on too, and she felt the exact same way, I had to fight her to get them back.   </p>
   </div>
+
+</section>
+
+
+
+
 
 
 
@@ -84,16 +117,16 @@
 
 </div>
 
+<script type="text/javascript" src="main.js">
+
+</script>
 
 
 
 
 
 
-
-
-
-
+</main>
 </body>
 
 
