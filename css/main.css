@@ -54,8 +54,6 @@ h1{
 	font-size:3.5rem;
   color:white;
 
-<<<<<<< HEAD
-=======
 
 	margin: 0;
 }
@@ -64,7 +62,6 @@ h1 a {
 	font-size:3.5rem;
   color:white;
 text-decoration: none;
->>>>>>> master
 }
 
 h2{
@@ -90,10 +87,6 @@ h3{
 li, a, p{
 	font-family: 'Muli';
 	font-size: 1rem;
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 }
 
 .product-description{
@@ -351,10 +344,6 @@ label[for=contact-phone]{
 
 
 input[type=text1]{
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 
 	width: 100%;
 	margin-bottom: 20px;
@@ -412,20 +401,7 @@ button:focus {
 
 display:flex;
   flex-flow: flex;
-<<<<<<< HEAD
-   margin-bottom:3rem;
-
-}
-.filter-buttons-container-2{
-  display:inline-flex;
-  flex-flow: wrap;
-
-   margin-bottom:3rem;
-
-}
-=======
    /*! margin-left:auto; */
->>>>>>> master
 
 flex-wrap: wrap;
 align-content: center;
@@ -440,19 +416,11 @@ justify-content: center;
   border-width:0.01rem;
   border-radius:0.5rem;
   background-color: #45A2B7;
-<<<<<<< HEAD
-  margin-bottom:3rem;
-=======
   margin-bottom:.5rem;
->>>>>>> master
    padding-bottom:1rem;
 
   padding:0.4rem;
-<<<<<<< HEAD
-  margin-left:2rem;
-=======
   margin-left:1rem;
->>>>>>> master
 
   }
 
@@ -504,11 +472,8 @@ justify-content: center;
     margin-top: 2rem;
     padding:1em;
 
-<<<<<<< HEAD
-=======
 		/* flex-direction:column; */
 
->>>>>>> master
 }
 
 
@@ -705,8 +670,6 @@ font-size:1.5rem;
 
   }
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -969,4 +932,3 @@ form div.flex label{
 
   text-align: left;
 }
->>>>>>> master
