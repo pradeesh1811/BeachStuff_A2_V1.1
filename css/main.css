@@ -53,7 +53,7 @@ h1{
 	font-family: 'Aclonica';
 	font-size:3.5rem;
   color:white;
-	
+
 }
 
 h2{
@@ -73,7 +73,7 @@ h3{
 li, a, p{
 	font-family: 'Muli';
 	font-size: 1rem;
-	
+
 }
 
 /* Fonts assigned to text elements ends*/
@@ -83,7 +83,7 @@ header{
   display:inline-block;
   padding:0.5rem 8.9%;
   font-size:1.5rem;
-  background-color:#45A2B7; 
+  background-color:#45A2B7;
 }
 
 
@@ -96,9 +96,9 @@ header{
 
 .nav-container li {
 
- list-style: none; 
+ list-style: none;
  display: inline-block;
- padding: 0.5rem 0.5rem; 
+ padding: 0.5rem 0.5rem;
  padding-top: 0.5rem;
  border-radius: 0.5rem;
  margin-bottom: 1rem;
@@ -106,7 +106,7 @@ header{
 }
 
 .nav-container li {
-   
+
   border-style:solid;
   border-width: 0.05rem;
   text-decoration: none;
@@ -198,7 +198,7 @@ header{
 }
 
 
-.rent-button 
+.rent-button
 {
   text-align: center;
 }
@@ -233,7 +233,7 @@ header{
 .about-page{
  margin-left: auto;
  margin-right: auto;
- 
+
 padding-top:1rem;
 
 padding-bottom:5rem;
@@ -293,7 +293,7 @@ label[for=contact-phone]{
 
 
 input[type=text1]{
-   
+
 
 }
 
@@ -329,7 +329,7 @@ button:focus {
   background-color: #FF7A00;
   color: white;
 }
- 
+
 
 
 /*filter page*/
@@ -339,14 +339,14 @@ button:focus {
 display:inline-flex;
   flex-flow: flex;
    margin-bottom:3rem;
-   
+
 }
 .filter-buttons-container-2{
   display:inline-flex;
   flex-flow: wrap;
-  
+
    margin-bottom:3rem;
-  
+
 }
 
 
@@ -358,7 +358,7 @@ display:inline-flex;
   border-radius:0.5rem;
   border-color: black;
   background-color: #45A2B7;
-  margin-bottom:3rem; 
+  margin-bottom:3rem;
    padding-bottom:1rem;
 
 }
@@ -366,7 +366,7 @@ display:inline-flex;
 .filter-button a{
   padding:0.4rem;
   margin-left:2rem;
-  
+
   }
 
 .filter-button a:hover{
@@ -415,7 +415,7 @@ display:inline-flex;
     margin-right: auto;
     margin-top: 2rem;
     padding:1em;
-    
+
 }
 
 
@@ -424,7 +424,7 @@ display:inline-flex;
   margin-left:2rem;
   margin-right:2rem;
   margin-top:4rem;
-  
+
 
 
 }
@@ -485,7 +485,7 @@ height:16rem;
   color:white;
   background-color:#45A2B7;
   padding:.5rem;
-  
+
 }
 .myrentals-title a:hover{
   background-color:#FF7A00;
@@ -503,7 +503,7 @@ height:16rem;
   color:white;
   background-color:#45A2B7;
   padding:.5rem;
-  
+
 }
 .myreviews-title a:hover{
   background-color:#FF7A00;
@@ -588,7 +588,7 @@ font-size:1.5rem;
   .product-description-image{
     width: 15rem;
      height: 5rem;
-    
+
   }
 }
 
@@ -597,7 +597,7 @@ font-size:1.5rem;
   .about-image{
     width: 24rem;
      height: 20rem;
-    
+
   }
 }
 
@@ -605,8 +605,6 @@ font-size:1.5rem;
   .about-image{
     width: 14rem;
      height: 10rem;
-    
+
   }
 }
-
-
