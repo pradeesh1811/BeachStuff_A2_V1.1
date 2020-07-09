@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Beach Stuff </title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+
+
+
+  <header>
+<div class="nav-grouping">
+<h1><a href="index.html">Beach Stuff </a></h1>
+
+  <nav>
+  <ul class="nav-container">
+
+  <li><a href="index.html" > Home</a> </li>
+  <li><a href="about.html" > About</a> </li>
+  <li><a href="equipments.html" >Equipments</a> </li>
+  <li><a href="contact.html" > Contact</a> </li>
+  <li><a href="myaccount.html"> My Account</a> </li>
+
+
+  </ul>
+  </nav>
+</div>
+
+</header>
+
+
+
+<div class="payment-page">
+
+
+
+<div class="row">
+ <div class="col-75">
+   <div class="container">
+     <form action="thankyoupage.html">
+
+       <div class="row">
+         <div class="col-50">
+           <h3>Billing Address</h3>
+           <label id="paymentform" for="fname"><i class="fa fa-user"></i> Full Name</label>
+           <input id="paymenttext" type="text" id="fname" name="firstname" placeholder="Jane N. Doe">
+           <label id="paymentform" for="email"><i class="fa fa-envelope"></i> Email</label>
+           <input id="paymenttext"type="text" id="email" name="email" placeholder="jane@example.com">
+           <label id="paymentform"for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+           <input id="paymenttext" type="text" id="adr" name="address" placeholder="246 E. 36th Street">
+           <label id="paymentform" for="city"><i class="fa fa-institution"></i> City</label>
+           <input id="paymenttext" type="text" id="city" name="city" placeholder="Vancouver">
+
+           <div class="row">
+             <div class="col-50">
+               <label id="paymentform" for="state">Province</label>
+
+               <select>
+                <option value="australia">Alberta</option>
+                <option value="canada">British Columbia</option>
+                <option value="usa">Manitoba</option>
+                <option value="usa">New Brunswick</option>
+                <option value="usa">Newfoundland & Labrador</option>
+                <option value="usa">Nova Scotia</option>
+                <option value="usa">Ontario</option>
+                <option value="usa">P.E.I.</option>
+                <option value="usa">Quebec</option>
+                <option value="usa">Saskatchewan</option>
+                <option value="usa">N.W.T</option>
+                <option value="usa">Nunavut</option>
+                <option value="usa">Yukon</option>
+               </select>
+
+
+             </div>
+             <div class="col-50">
+               <label  id="paymentform"for="zip">Postal Code</label>
+               <input  id="paymenttext" type="text" id="zip" name="zip" placeholder="V5F2N8">
+             </div>
+           </div>
+         </div>
+
+         <div class="col-50">
+           <h3>Payment</h3>
+           <label id="paymentform" for="cname">Name on Card</label>
+           <input id="paymenttext" type="text" id="cname" name="cardname" placeholder="Jane Natalie Doe">
+           <label id="paymentform" for="ccnum">Credit card number</label>
+           <input id="paymenttext" type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+           <label id="paymentform" for="expmonth">Exp Month</label>
+           <input id="paymenttext" type="text" id="expmonth" name="expmonth" placeholder="January">
+
+           <div class="row">
+             <div class="col-50">
+               <label id="paymentform" for="expyear">Exp Year</label>
+               <input id="paymenttext" type="text" id="expyear" name="expyear" placeholder="2020">
+             </div>
+             <div class="col-50">
+               <label id="paymentform" for="cvv">CVV</label>
+               <input id="paymenttext" type="text" id="cvv" name="cvv" placeholder="123">
+             </div>
+           </div>
+         </div>
+
+       </div>
+       <label>
+         <input id="paymenttext" type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+       </label>
+       <input id="paymenttext" type="submit" value="Continue to checkout" class="btn">
+     </form>
+   </div>
+ </div>
+
+ <div class="col-25">
+   <div class="container-cart">
+     <h4>Cart
+       <span class="price" style="color:black">
+         <i class="fa fa-shopping-cart"></i>
+         <b>4</b>
+       </span>
+     </h4>
+     <p><a href="productinfo2.html">FLIP-FLOPS 1/hr</a> <span class="price">$3.00</span></p>
+     <hr>
+     <p>Total <span class="price" style="color:black"><b>$3.00</b></span></p>
+   </div>
+ </div>
+</div>
+
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
