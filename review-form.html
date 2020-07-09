@@ -15,59 +15,60 @@
 
 
  <body>
-
-<header>
-
-<div class="nav-grouping">
-<h1><a href="index.html">Beach Stuff </a></h1>
-
-  <nav>
-  <ul class="nav-container">
-
-  <li><a href="index.html" > Home</a> </li>
-  <li><a href="about.html" > About</a> </li>
-  <li><a href="equipments.html" >Equipments</a> </li>
-  <li><a href="contact.html" > Contact</a> </li>
-  <li><a href="myaccount.html"> My Account</a> </li>
-
-
-  </ul>
-  </nav>
-</div>
-
-</header>
+   <header>
+       <section class="nav-grouping">
+       <h1><a href="index.html">Beach Stuff </a></h1>
+           <nav>
+           <ul class="nav-container">
+           <li><a href="index.html" > Home</a> </li>
+           <li><a href="about.html" > About</a> </li>
+           <li><a href="equipments.html" >Equipments</a> </li>
+           <li><a href="contact.html" > Contact</a> </li>
+           <li><a href="myaccount.html"> My Account</a> </li>
+           </ul>
+           </nav>
+       </section>
+   </header>
 
 
 <!-- Forms referenced from: https://www.w3schools.com/html/html_forms.asp
-
-
 for all other forms as well-->
 
-         <div class="review-form-content">
+<main class="review-form-content">
 
-         <h3> Please leave a review for your beach chair! </h3>
+        <h3> Please leave a review for your beach chair! </h3>
         <form class="contact-form">
+
           <div class="flex">
-
-
-         <label for="contact-name">Name:</label>
-         <input type="text1" id="contact-name" placeholder="First and Last Name">
-         <br>
-         <br>
+             <label for="contact-name">Name:</label>
+             <input type="text1" id="contact-name" placeholder="First and Last Name">
+             <br>
+             <br>
           </div>
 
           <div class="flex">
-
-         <label id="message-text" for="contact-message">Message:</label>
-         <input type="text" id="contact-message" placeholder="Enter your message...">
-         <br><br><br>
+               <label id="message-text" for="contact-message">Message:</label>
+               <input type="textlarge" id="contact-message" placeholder="">
+               <br><br><br>
           </div>
           <div class="flex">
-
-         <div class="rent-button" onclick="window.location.href=index.html;">
-         <a href= "index.html" >Submit </a>
-        </div>
+               <div class="rent-button" onclick="window.location.href=index.html;">
+               <a href= "index.html" >Submit </a>
           </div>
+          </div>
+
         </form>
-        </body>
-  </html>
+      </main>
+    <footer>
+        <section class="footer-elements">
+          <button class="rent-button-footer">
+          <a href="https://github.com/pradeesh1811/BeachStuff_A2_V1.1.git">GitHub Repository</a>
+          </button>
+
+          <button class="rent-button-footer">
+          <a href="http://www.sfu.ca/~pmotha/PradeeshMotha_IAT339_A2/IAT_339_Assignment2_Styleguide/index.html">Style Guide</a>
+          </button>
+        </section>
+    </footer>
+</body>
+</html>

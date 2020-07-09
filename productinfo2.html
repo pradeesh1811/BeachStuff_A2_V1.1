@@ -16,118 +16,117 @@
 
  <body>
 
-<header>
-
-<div class="nav-grouping">
-<h1><a href="index.html">Beach Stuff </a></h1>
-
-  <nav>
-  <ul class="nav-container">
-
-  <li><a href="index.html" > Home</a> </li>
-  <li><a href="about.html" > About</a> </li>
-  <li><a href="equipments.html" >Equipments</a> </li>
-  <li><a href="contact.html" > Contact</a> </li>
-  <li><a href="myaccount.html"> My Account</a> </li>
-
-
-  </ul>
-  </nav>
-</div>
-
-</header>
+   <header>
+       <section class="nav-grouping">
+       <h1><a href="index.html">Beach Stuff </a></h1>
+           <nav>
+           <ul class="nav-container">
+           <li><a href="index.html" > Home</a> </li>
+           <li><a href="about.html" > About</a> </li>
+           <li><a href="equipments.html" >Equipments</a> </li>
+           <li><a href="contact.html" > Contact</a> </li>
+           <li><a href="myaccount.html"> My Account</a> </li>
+           </ul>
+           </nav>
+       </section>
+   </header>
 
 <main>
-<div class="product-description-container">
-      <!-- Product images Container-->
-    <div class="image-and-text">
-        <div class="slideshow-container">
+      <!-- Entire section of the image, description and purchase of an item -->
+          <article class="product-description-container">
 
-          <div class="product-description-content">
-            <div class="new-tag"> NEW </div>
-              <!-- Product images -->
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <img class="product-image" src="img/flipflops.webp">
-            </div>
+            <!-- Article Container for the combination of the image and description which can stand on their own and are seprate from the rental module-->
+              <article class="image-and-text">
 
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img class="product-image"  src="img/flipflop2.webp">
-            </div>
+                <!-- Entire module for the image gallery -->
+                <article class="slideshow-container">
 
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <img class="product-image"  src="img/flipflop3.webp">
-            </div>
+                    <section class="product-description-content">
+                      <div class="new-tag"> NEW </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      <!-- Product images -->
+                      <section class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <figure>
+                        <img class="product-image" src="img/flipflops.webp">
+                        </figure>
+                      </section>
 
-          </div>
+                      <section class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <figure>
+                        <img class="product-image"  src="img/flipflop2.webp">
+                        </figure>
+                      </section>
 
-        </div>
+                      <section class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <figure>
+                        <img class="product-image"  src="img/flipflop3.webp">
+                        </figure>
+                      </section>
 
-          <div class="product-desciption-text">
-            <h2> Reebok Flip-Flops (White only)</h2>
-            <p class="product-description">Providing all-day comfort for warm-weather excursions, the Super Coil 2.0 flip-flop combines a plush footbed made from quick-drying material with a molded strap that contours to your foot.</p>
-          </div>
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-      </div>
-          <div class="rental-interaction-content">
-            <h3> Rental Options</h3>
-             <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_checkbox-->
-            <form action="paymentpage.html">
-              <input type="checkbox" id="option1" name="option1" value="option1">
-              <label for="option1"> 1 Hour - $3.00</label><br>
-              <input type="checkbox" id="option2" name="option2" value="option2">
-              <label for="option2"> 3 Hour - $5.00</label><br>
-              <input type="checkbox" id="option3" name="option3" value="option3">
-              <label for="option3"> 6 Hour - $7.00</label><br><br>
-              <div class="button">
-                  <button ref= "paymentpage.html" >Submit </button>
-                  </div>
-            </form>
-          </div>
-</div>
+                    </section>
 
-<section class="reviews">
-  <div class="reviews-content">
-    <h2 id="review-title"> Reviews </h2>
+                  </article>
 
-    <h3> Emily Woo </h3>
-    <p> I love these things, so unbelievably comfortable. Its like walking on a fluffy cloud, just phenonemal. The best part is the rates here are so affordable, competitors are easily three to four times more expensive, with half the quality. Honestly, some of the best flip-flops I have ever worn.</p>
+                    <section class="product-desciption-text">
+                      <h2> Reebok Flip-Flops (White only)</h2>
+                      <p class="product-description">Providing all-day comfort for warm-weather excursions, the Super Coil 2.0 flip-flop combines a plush footbed made from quick-drying material with a molded strap that contours to your foot.</p>
+                    </section>
 
-    <div class="line-break-review"></div>
+                </article>
 
-    <h3> Bob Dole </h3>
-    <p> So I got these for while I was on vacation as I forgot my flip-flops back in Australia and I am so glad that I did, because WOW! These are the comfiest things I have ever worn, and can you believe they are this cheap? My wife tried them on too, and she felt the exact same way, I had to fight her to get them back.   </p>
-  </div>
+                    <!-- Rental Module -->
+                    <article class="rental-interaction-content">
+                      <h3> Rental Options</h3>
+                       <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_checkbox-->
+                      <form action="paymentpage.html">
+                        <input type="checkbox" id="option1" name="option1" value="option1">
+                        <label for="option1"> 1 Hour - $3.00</label><br>
+                        <input type="checkbox" id="option2" name="option2" value="option2">
+                        <label for="option2"> 3 Hour - $5.00</label><br>
+                        <input type="checkbox" id="option3" name="option3" value="option3">
+                        <label for="option3"> 6 Hour - $7.00</label><br><br>
+                        <div class="button">
+                            <button ref= "paymentpage.html" >Submit </button>
+                        </div>
+                    </form>
+              </article>
+          </article>
 
-</section>
+          <!-- Module for Review section -->
+          <article class="reviews">
+            <section class="reviews-content">
+              <h2 id="review-title"> Reviews </h2>
 
+              <h3> Emily Woo </h3>
+              <p> I love these things, so unbelievably comfortable. Its like walking on a fluffy cloud, just phenonemal. The best part is the rates here are so affordable, competitors are easily three to four times more expensive, with half the quality. Honestly, some of the best flip-flops I have ever worn.</p>
 
+              <div class="line-break-review"></div>
 
+              <h3> Bob Dole </h3>
+              <p> So I got these for while I was on vacation as I forgot my flip-flops back in Australia and I am so glad that I did, because WOW! These are the comfiest things I have ever worn, and can you believe they are this cheap? My wife tried them on too, and she felt the exact same way, I had to fight her to get them back.   </p>
+            </section>
 
+          </article>
 
+          <script type="text/javascript" src="main.js">
+          </script>
+        </main>
+      </body>
+    <footer>
+      <section class="footer-elements">
+        <button class="rent-button-footer">
+        <a href="https://github.com/pradeesh1811/BeachStuff_A2_V1.1.git">GitHub Repository</a>
+        </button>
 
-
-
-
-
-</div>
-
-<script type="text/javascript" src="main.js">
-
-</script>
-
-
-
-
-
-
-</main>
-</body>
-
-
+        <button class="rent-button-footer">
+        <a href="http://www.sfu.ca/~pmotha/PradeeshMotha_IAT339_A2/IAT_339_Assignment2_Styleguide/index.html">Style Guide</a>
+        </button>
+      </section>
+  </footer>
 </html>
